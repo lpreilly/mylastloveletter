@@ -1,5 +1,5 @@
 const SUPABASE_URL = 'https://cftbzeiiyzffxjqhilyn.supabase.co';
-const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ...'; // your full key
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNmdGJ6ZWlpeXpmZnhqcWhpbHluIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM2MDMxNTYsImV4cCI6MjA4OTE3OTE1Nn0.snDQLyX-ZksPojIaz1-usLRMnyF8CtYedB-bYV44LO0'; // your full key
 
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
